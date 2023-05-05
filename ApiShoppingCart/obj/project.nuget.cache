@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wE6LFzUlF2LLZBsXMwN/3hzj7mbWJRjc8XZXK0nOq674H5CHkVH1UzaIHIbVLufQmGDPbgPfolWUpeXLEjtxhQ==",
+  "dgSpecHash": "0+aHfUSjiq3fN5DpDMUcwiiu1UShVnISm9+upDIlgY/as7GAopikhBykqvgz/Kwlenty9Fc8G46aB4ZtdVhWbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiShoppingCart\\ApiShoppingCart.csproj",
   "expectedPackageFiles": [
@@ -33,9 +33,10 @@
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
