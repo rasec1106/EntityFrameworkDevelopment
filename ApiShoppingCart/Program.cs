@@ -1,5 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+/**************/
+var cnn = builder.Configuration.GetConnectionString("CartDB");
+/**************/
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
