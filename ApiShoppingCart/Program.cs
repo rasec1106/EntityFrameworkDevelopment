@@ -1,6 +1,7 @@
 /**************/
 using Microsoft.EntityFrameworkCore;
 using ApiShoppingCart.DbContexts;
+using ApiShoppingCart.Repository;
 /**************/
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Configuration for SQL connection
 var cnn = builder.Configuration.GetConnectionString("CartDB");
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(cnn));
+// Configuration for Dependency Injection
+builder.Services.AddScoped<ICartRepository, CartSqlRepository>();
 /**************/
 
 // Add services to the container.

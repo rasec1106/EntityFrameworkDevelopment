@@ -60,6 +60,9 @@ namespace ApiShoppingCart.Migrations
                     b.Property<decimal>("discount")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("orderId")
+                        .HasColumnType("int");
+
                     b.Property<int>("productId")
                         .HasColumnType("int");
 
@@ -77,7 +80,25 @@ namespace ApiShoppingCart.Migrations
 
                     b.HasKey("orderItemId");
 
+                    b.HasIndex("orderId");
+
                     b.ToTable("orderItems");
+                });
+
+            modelBuilder.Entity("ApiShoppingCart.Models.OrderItem", b =>
+                {
+                    b.HasOne("ApiShoppingCart.Models.Order", "order")
+                        .WithMany("orderItems")
+                        .HasForeignKey("orderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("order");
+                });
+
+            modelBuilder.Entity("ApiShoppingCart.Models.Order", b =>
+                {
+                    b.Navigation("orderItems");
                 });
 #pragma warning restore 612, 618
         }

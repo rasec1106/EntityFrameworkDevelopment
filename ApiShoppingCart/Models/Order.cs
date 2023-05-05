@@ -8,6 +8,6 @@
         public string? phone { get; set; }
         public string? email { get; set; }
         public decimal amount { get; set;}
-
+        public ICollection<OrderItem>? orderItems { get; set; } // by convention an order has a collection of orderItems
     }
 }
