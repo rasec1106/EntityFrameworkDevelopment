@@ -8,9 +8,11 @@ namespace ApiCustomer.Repository
     public class CustomerSQLRepository : ICustomerRepository
     {
         private ApiCustomerContext dbContext;
+        private ILogger<CustomerSQLRepository> logger;
 
-        public CustomerSQLRepository(ApiCustomerContext dbContext)
+        public CustomerSQLRepository(ApiCustomerContext dbContext, ILogger<CustomerSQLRepository> logger)
         {
+            this.logger = logger;
             this.dbContext = dbContext;
         }
 
@@ -20,11 +22,13 @@ namespace ApiCustomer.Repository
         }
         public async Task<Customer> GetCustomerById(int id)
         {
-            var customer = await this.dbContext.Customers.Where(customer => customer.CustomerId == id).FirstOrDefaultAsync();
-            if(customer == null)
+            logger.LogInformation("Fetch customer in the database with id = " + id.ToString());
+            var customer = await dbContext.Customers.Where(c => c.CustomerId == id).FirstOrDefaultAsync();
+            if (customer == null)
             {
-                throw new NotFoundException("Customer not found with id: "+id.ToString());
+                throw new NotFoundException("Customer not found with id=" + id.ToString());
             }
+            logger.LogInformation("Customer with id=" + customer.CustomerId.ToString());
             return customer;
         }
 
