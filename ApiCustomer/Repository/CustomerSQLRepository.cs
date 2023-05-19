@@ -20,6 +20,12 @@ namespace ApiCustomer.Repository
         {
             return await this.dbContext.Customers.ToListAsync();
         }
+
+        public async Task<IEnumerable<Customer>> GetCustomers(int page, int size)
+        {
+            return await this.dbContext.Customers.Skip(page*size).Take(size).ToListAsync();
+        }
+
         public async Task<Customer> GetCustomerById(int id)
         {
             logger.LogInformation("Fetch customer in the database with id = " + id.ToString());

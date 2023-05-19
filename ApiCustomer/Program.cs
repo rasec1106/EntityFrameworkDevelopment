@@ -3,6 +3,7 @@ using ApiCustomer.Exceptions;
 using ApiCustomer.Models;
 using ApiCustomer.Repository;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 /******************************************/
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,11 @@ builder.Services.AddScoped<ICustomerRepository, CustomerSQLRepository>();
 // configure the connection string
 var connectionString = builder.Configuration.GetConnectionString("CustomerDB");
 builder.Services.AddDbContext<ApiCustomerContext>(options => options.UseSqlServer(connectionString));
+// configure serilog
+builder.Host.UseSerilog((context, loggerConfig) =>
+{
+    loggerConfig.ReadFrom.Configuration(context.Configuration).WriteTo.Console();
+});
 /******************************************/
 
 

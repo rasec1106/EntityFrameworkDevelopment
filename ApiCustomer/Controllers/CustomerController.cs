@@ -22,6 +22,13 @@ namespace ApiCustomer.Controllers
             return StatusCode(StatusCodes.Status200OK, await customerRepository.GetCustomers());
         }
 
+        [Route("/GetCustomers/page/{page}/size/{size}")]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers(int page, int size)
+        {
+            return StatusCode(StatusCodes.Status200OK, await customerRepository.GetCustomers(page, size));
+        }
+
         [Route("/GetCustomerById/{id}")]
         [HttpGet]
         public async Task<ActionResult<Customer>> GetCustomerById(int id)

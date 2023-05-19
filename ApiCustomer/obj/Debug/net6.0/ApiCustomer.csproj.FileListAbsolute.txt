@@ -136,3 +136,15 @@ C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\Ent
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\obj\Debug\net6.0\ApiCustomer.pdb
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\obj\Debug\net6.0\ApiCustomer.genruntimeconfig.cache
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\obj\Debug\net6.0\ref\ApiCustomer.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiCustomer\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
