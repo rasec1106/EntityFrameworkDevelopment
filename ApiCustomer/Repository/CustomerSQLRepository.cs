@@ -1,4 +1,5 @@
 ﻿using ApiCustomer.Models;
+using ApiCustomer.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -19,7 +20,12 @@ namespace ApiCustomer.Repository
         }
         public async Task<Customer> GetCustomerById(int id)
         {
-            return await this.dbContext.Customers.Where(customer => customer.CustomerId == id).FirstOrDefaultAsync();
+            var customer = await this.dbContext.Customers.Where(customer => customer.CustomerId == id).FirstOrDefaultAsync();
+            if(customer == null)
+            {
+                throw new NotFoundException("Customer not found with id: "+id.ToString());
+            }
+            return customer;
         }
 
         public async Task<Customer> CreateCustomer(Customer customer)
