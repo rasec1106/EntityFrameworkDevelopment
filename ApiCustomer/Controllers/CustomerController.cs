@@ -17,37 +17,42 @@ namespace ApiCustomer.Controllers
 
         [Route("/GetCustomers")]
         [HttpGet]
-        public async Task<IEnumerable<Customer>> GetCustomers()
+        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         {
-            return await customerRepository.GetCustomers();
+            return StatusCode(StatusCodes.Status200OK, await customerRepository.GetCustomers());
         }
 
         [Route("/GetCustomerById/{id}")]
         [HttpGet]
-        public async Task<Customer> GetCustomerById(int id)
+        public async Task<ActionResult<Customer>> GetCustomerById(int id)
         {
-            return await customerRepository.GetCustomerById(id);
+            return StatusCode(StatusCodes.Status200OK, await customerRepository.GetCustomerById(id));
         }
 
         [Route("/CreateCustomer")]
         [HttpPost]
-        public async Task<Customer> CreateCustomer(Customer customer)
+        // ActionResult is inserted to help customize the kind of response we are sending
+        public async Task<ActionResult<Customer>> CreateCustomer(Customer customer)
         {
-            return await customerRepository.CreateCustomer(customer);
+            // We wrap it all into StatusCode
+            return StatusCode(StatusCodes.Status201Created, await customerRepository.CreateCustomer(customer));
+            
         }
 
         [Route("/UpdateCustomer")]
         [HttpPut]
-        public async Task<Customer> UpdateCustomer(Customer customer)
+        public async Task<ActionResult<Customer>> UpdateCustomer(Customer customer)
         {
-            return await customerRepository.UpdateCustomer(customer);
+            return StatusCode(StatusCodes.Status200OK, await customerRepository.UpdateCustomer(customer));
+            /* Another way to do this is */
+            return Ok(await customerRepository.UpdateCustomer(customer));
         }
 
         [Route("/DeleteCustomer")]
         [HttpDelete]
-        public async Task<bool> DeleteCustomer(int id)
+        public async Task<ActionResult<bool>> DeleteCustomer(int id)
         {
-            return await customerRepository.DeleteCustomer(id);
+            return StatusCode(StatusCodes.Status200OK, await customerRepository.DeleteCustomer(id));
         }
     }
 }

@@ -2283,11 +2283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiCustomer\\ApiCustomer.csproj",
+      "projectUniqueName": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiCustomer\\ApiCustomer.csproj",
       "projectName": "ApiCustomer",
-      "projectPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiCustomer\\ApiCustomer.csproj",
+      "projectPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiCustomer\\ApiCustomer.csproj",
       "packagesPath": "C:\\Users\\cesar.herrera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiCustomer\\obj\\",
+      "outputPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiCustomer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cesar.herrera\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yf9CQY1j6rkNO0BtT71WmECaIsQlkqN045lhTOhqeQi+rqks6DnZCWxHEy11NV5hiVsxRCsJAfr5OGUlLdGwYQ==",
+  "dgSpecHash": "i0NQBAj8DvxqLFNUmsoHRjqR12ie8tbtgvgrvFm+ZcH1PrWEYUxBoiZr/JuwJOR2vxd0hcYLUSXMDeaLo9Iahw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\Desarrollo de Servicios Web\\Projects\\ApiCustomer\\ApiCustomer.csproj",
+  "projectFilePath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiCustomer\\ApiCustomer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cesar.herrera\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
