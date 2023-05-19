@@ -1,4 +1,5 @@
 /******************************************/
+using ApiCustomer.Exceptions;
 using ApiCustomer.Models;
 using ApiCustomer.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -32,7 +33,8 @@ if (app.Environment.IsDevelopment())
 }
 
 /******************************************/
-
+// register the middleware
+app.UseMiddleware(typeof(GlobalExceptionHandler));
 /******************************************/
 
 app.UseHttpsRedirection();
