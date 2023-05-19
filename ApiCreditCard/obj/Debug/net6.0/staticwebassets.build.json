@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I7CQOZsWgdbCkBmHB3EO1UbLCsjGR0whpVRqs0SEq8w=",
+  "Source": "ApiCreditCard",
+  "BasePath": "_content/ApiCreditCard",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

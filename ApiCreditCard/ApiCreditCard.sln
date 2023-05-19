@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCreditCard", "ApiCreditCard.csproj", "{8D8BBD5F-8A09-4DB2-ACD3-69831263DDDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8BBD5F-8A09-4DB2-ACD3-69831263DDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8BBD5F-8A09-4DB2-ACD3-69831263DDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8BBD5F-8A09-4DB2-ACD3-69831263DDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8BBD5F-8A09-4DB2-ACD3-69831263DDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F6FA5C-B797-4CFF-9982-1875239D7DB8}
+	EndGlobalSection
+EndGlobal
