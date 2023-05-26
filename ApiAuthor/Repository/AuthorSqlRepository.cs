@@ -16,7 +16,9 @@ namespace ApiAuthor.Repository
 
             ResponseDto response = new ResponseDto();
             try
-            {
+            { 
+                // entity framework can handle transactions for us.
+                // No need to use BeginTransaction, Commit or Rollback
                 dbContext.authors.Add(author);
                 await dbContext.SaveChangesAsync();
                 response.isError = false;

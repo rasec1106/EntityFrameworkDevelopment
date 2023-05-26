@@ -1,7 +1,10 @@
-﻿namespace ApiAuthor.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ApiAuthor.Models
 {
     public class Book
     {
+        [Key]
         public int bookId { get; set; }
         public string? title { get; set; }
         public string? description { get; set; }
