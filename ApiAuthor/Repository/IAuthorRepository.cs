@@ -1,9 +1,10 @@
-﻿using ApiAuthor.Models;
+﻿using ApiAuthor.Dtos;
+using ApiAuthor.Models;
 
 namespace ApiAuthor.Repository
 {
     public interface IAuthorRepository
     {
-        public Task<bool> createAuthorWithBooks(Author author);
+        public Task<ResponseDto> createAuthorWithBooks(Author author);
     }
 }

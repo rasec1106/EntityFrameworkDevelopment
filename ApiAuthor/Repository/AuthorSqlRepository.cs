@@ -1,4 +1,5 @@
 ﻿using ApiAuthor.DbContexts;
+using ApiAuthor.Dtos;
 using ApiAuthor.Models;
 using System;
 namespace ApiAuthor.Repository
@@ -10,21 +11,25 @@ namespace ApiAuthor.Repository
         {
             this.dbContext = dbContext;
         }
-        public async Task<bool> createAuthorWithBooks(Author author)
+        public async Task<ResponseDto> createAuthorWithBooks(Author author)
         {
+
+            ResponseDto response = new ResponseDto();
             try
             {
-                /* some validations before saving */
-                // 1. When saving the books, they are supposed to belong to the same author
-
                 dbContext.authors.Add(author);
                 await dbContext.SaveChangesAsync();
-                return true;
+                response.isError = false;
+                response.statusCode= 201;
+                response.message = $"Author created correctly with {author.books?.Count.ToString() ?? "no"} books";
             }
-            catch
+            catch(Exception ex)
             {
-                return false;
+                response.isError = true;
+                response.message = ex.Message;
+                response.statusCode = 500;
             }
+            return response;
         }
     }
 }
