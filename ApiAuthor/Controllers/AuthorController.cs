@@ -6,7 +6,7 @@ namespace ApiAuthor.Controllers
 {
     [ApiController]
     [Route("/api/author")]
-    public class AuthorController 
+    public class AuthorController : ControllerBase
     {
         private IAuthorRepository authorRepository;
         public AuthorController(IAuthorRepository authorRepository)
@@ -15,9 +15,9 @@ namespace ApiAuthor.Controllers
         }
         [Route("/createAuthorWithBooks")]
         [HttpPost]
-        public async Task<bool> createAuthorWithBooks(Author author)
+        public async Task<ActionResult<bool>> createAuthorWithBooks(Author author)
         {
-            return await this.authorRepository.createAuthorWithBooks(author);
+            return StatusCode(StatusCodes.Status201Created, await this.authorRepository.createAuthorWithBooks(author));
         }
     }
 }
