@@ -5,10 +5,12 @@ import { RouterModule } from '@angular/router'; // To navigate between my pages
 import { FormsModule } from '@angular/forms'; // To work with forms 
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
