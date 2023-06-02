@@ -23,7 +23,10 @@ import { ProductListComponent } from './components/product-list/product-list.com
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule,
+    RouterModule.forRoot([
+      // List of routes that will be used with <router-outlet>
+      {path: '', component:ProductListComponent}
+    ]),
     FormsModule
   ],
   providers: [],
