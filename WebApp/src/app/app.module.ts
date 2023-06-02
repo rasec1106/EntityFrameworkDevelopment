@@ -7,12 +7,18 @@ import { FormsModule } from '@angular/forms'; // To work with forms
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CartStatusComponent } from './components/cart-status/cart-status.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent,
+    CartStatusComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
