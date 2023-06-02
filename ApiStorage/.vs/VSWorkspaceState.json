@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DTOs",
+    "\\Models",
+    "\\Repository"
+  ],
+  "SelectedNode": "\\DTOs\\StorageDto.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DbContexts",
+    "\\Migrations",
+    "\\Models",
+    "\\Properties",
+    "\\Repository"
+  ],
+  "SelectedNode": "\\Controllers\\CreditCardController.cs",
+  "PreviewInSolutionExplorer": false
+}
