@@ -10,6 +10,18 @@ var cnn = builder.Configuration.GetConnectionString("CategoryDB");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(cnn));
 // Configuration for Dependency Injection
 builder.Services.AddScoped<ICategoryRepository, CategorySQLRepository>();
+// Cors configuration
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyAllowedOrigins",
+        policy =>
+        {
+            // dont forget to add http or https
+            policy.WithOrigins("http://localhost:4200") // note the port is included 
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 /**************/
 
 // Add services to the container.
@@ -33,5 +45,10 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+/**************/
+// Extra line for CORS after build
+app.UseCors("MyAllowedOrigins");
+/**************/
 
 app.Run();
