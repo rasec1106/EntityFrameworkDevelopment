@@ -11,7 +11,7 @@ namespace ApiCategory.Repository
         {
             this.dbContext = dbContext;
         }
-        public async Task<Category> AddCategory(Category category)
+        public async Task<Category>  AddCategory(Category category)
         {
             throw new NotImplementedException();
         }
