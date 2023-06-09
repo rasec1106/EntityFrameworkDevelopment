@@ -1,4 +1,16 @@
+using ApiCategory.DbContexts;
+using ApiCategory.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+/**************/
+// Configuration for SQL connection
+var cnn = builder.Configuration.GetConnectionString("CategoryDB");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(cnn));
+// Configuration for Dependency Injection
+builder.Services.AddScoped<ICategoryRepository, CategorySQLRepository>();
+/**************/
 
 // Add services to the container.
 
