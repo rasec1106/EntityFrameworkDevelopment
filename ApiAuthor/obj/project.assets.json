@@ -2337,7 +2337,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cacesar.herrera\\.nuget\\packages\\": {}
+    "C:\\Users\\cesar.herrera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2345,11 +2345,11 @@
       "projectUniqueName": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiAuthor\\ApiAuthor.csproj",
       "projectName": "ApiAuthor",
       "projectPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiAuthor\\ApiAuthor.csproj",
-      "packagesPath": "C:\\Users\\cacesar.herrera\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\cesar.herrera\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cesar.herrera\\Documents\\Cibertec\\Ciclo202301\\DesarrolloServiciosWeb\\EntityFrameworkDevelopment\\ApiAuthor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cacesar.herrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cesar.herrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
