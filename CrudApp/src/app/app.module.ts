@@ -6,17 +6,27 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CategoryComponent } from './components/category/category.component';
+import { CategoryFormComponent } from './components/category-form/category-form.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryFormComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot([
+      {path: '', component: CategoryComponent},
+      {path: 'category', component: CategoryComponent},
+      {path: 'product', component: ProductComponent},
+      {path: 'category/create', component: CategoryFormComponent},
+      {path: 'category/update', component: CategoryFormComponent},
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
