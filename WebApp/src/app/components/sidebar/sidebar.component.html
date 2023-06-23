@@ -1,3 +1,4 @@
 <div class="list-group">
-    <a *ngFor="let c of categories"  class="list-group-item">{{c.categoryName}}</a>
+    <button class="list-group-item" (click)="getAllProducts()">Todos</button>
+    <button *ngFor="let c of categories"  class="list-group-item" (click)="getProductsByCategory(c)">{{c.categoryName}}</button>
 </div>

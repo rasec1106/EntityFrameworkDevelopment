@@ -80,7 +80,6 @@ C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\Ent
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\Humanizer.dll
-C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\cesar.herrera\Documents\Cibertec\Ciclo202301\DesarrolloServiciosWeb\EntityFrameworkDevelopment\ApiProduct\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
